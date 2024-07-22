@@ -18,8 +18,8 @@ This Flask application provides an API to fetch and parse accession data from th
 
 1. Clone this repository:
    ```
-   git clone [your-repo-url]
-   cd [your-repo-name]
+   git clone https://github.com/k821209/deevo.dms.grinapi.git
+   cd deevo.dms.grinapi 
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -45,6 +45,7 @@ This Flask application provides an API to fetch and parse accession data from th
 3. Use the API:
    - To fetch accession data: `http://localhost:8080/?id=[accession_id]`
    - For a health check: `http://localhost:8080/health`
+   - DEMO : `https://grinapi-dot-deevo-dms.an.r.appspot.com/?id=507422`
 
 ## API Endpoints
 
